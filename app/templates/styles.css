@@ -1,0 +1,72 @@
+doby{
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2; 
+}
+.titulo-principal{
+    font-family: Arial, sans-serif;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.prediction-resultado{
+    width: 80%;
+    font-family: Arial, sans-serif;
+    margin:auto;    
+}
+container {
+    width: 400px; /* Ancho del contenedor */
+    padding: 20px;
+    background-color: red; 
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1); /* Sombra ligera */
+}
+
+.input-group {
+    margin-bottom: 15px; /* Espacio entre los grupos de inputs */
+}
+
+
+input[type="number"]{
+    width: calc(100% - 10px); /* Ajusta el ancho con margen */
+    padding: 10px; /* Espaciado interno */
+    margin-top: 5px; /* Espacio superior */
+    margin-bottom: 10px; /* Espacio inferior */
+    border: 1px solid #ccc; /* Borde */
+    border-radius: 4px; /* Borde redondeado */
+    box-sizing: border-box; /* Incluye el borde en el tamaño total */
+}
+
+input[type="submit"],
+input[type="reset"] {
+    width: calc(50% - 5px); /* Ajusta el ancho con margen */
+    padding: 10px; /* Espaciado interno */
+    display:inline-block;
+    border: 1px solid #ccc; /* Borde */
+    border-radius: 4px; /* Borde redondeado */
+    box-sizing: border-box; /* Incluye el borde en el tamaño total */
+    
+}
+form{
+    font-family: Arial, sans-serif;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+input[type="submit"],
+input[type="reset"] {
+    background-color: #4CAF50;
+    color: white; 
+    cursor: pointer; 
+    display: inline-block;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #45a049; /
+}
+
+/label {
+    font-weight: bold; 
+}
